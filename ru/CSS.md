@@ -1,97 +1,58 @@
+# CSS
 
+## Базовые темы в CSS
 
-### Базовые темы в CSS ###
+1. Селекторы и специфичность (element, .class, #id, *, [attr])
+2. Псевдоклассы (:hover, :active, :nth-child, :not)
+3. Псевдоэлементы (::before, ::after, ::placeholder)
+4. Наследование и каскад
+5. Единицы измерения (px, em, rem, %, vh, vw)
+6. Цвета (hex, rgb, hsl, opacity, rgba)
+7. Блочная модель (box model: margin, border, padding, content)
+8. Система позиционирования (static, relative, absolute, fixed, sticky)
+9. Отображение (display: block, inline, flex, grid, none)
+10. Работа со шрифтами (font-family, font-size, line-height)
+11. Границы, тени, скругления (border, box-shadow, border-radius)
+12. Фоны и изображения (background, background-image, cover, contain)
+13. Работа с overflow (overflow, scroll, hidden, auto)
+14. Медиазапросы (@media)
+15. Переходы и анимации (transition, animation, keyframes)
 
-✅ Селекторы и специфичность (element, .class, #id, *, [attr])
+## Продвинутые темы в CSS
 
-✅ Псевдоклассы (:hover, :active, :nth-child, :not)
+1. CSS Flexbox (расположение в одну строку/столбец)
+2. CSS Grid (двумерные сетки)
+3. Responsive design и mobile-first
+4. Специфичность и приоритеты (в том числе !important)
+5. Переменные CSS (--main-color)
+6. Калькуляции: calc(), clamp(), min(), max()
+7. Custom properties + JS (getComputedStyle(document.documentElement))
+8. Advanced селекторы: :is(), :has(), :where()
+9. Поддержка тёмной темы (prefers-color-scheme)
+10. Адаптивная типографика (clamp(), fluid typography)
+11. Современные анимации (CSS-only, motion-safe, delay/steps)
+12. Адаптивные изображения (object-fit, aspect-ratio, picture, srcset)
+13. Layered CSS (@layer, @scope — экспериментально)
+14. Контейнерные запросы (@container) — современная альтернатива @media
+15. Поддержка accessibility (фокус, контрастность, :focus-visible)
 
-✅ Псевдоэлементы (::before, ::after, ::placeholder)
+## Основные темы в SASS/SCSS
 
-✅ Наследование и каскад
+1. Переменные ($color: #333)
+2. Вложенность (nav ul li a {})
+3. Импорт файлов (@use, @forward, @import — устаревшее)
+4. Миксины (@mixin, @include)
+5. Условия (@if, @else, @else if)
+6. Циклы (@for, @each, @while)
+7. Функции (@function, @return)
+8. Операции (+, -, *, /, %)
+9. Расширение селекторов (@extend)
+10. Интерполяция (#{$var})
+11. Модули и неймспейсы (@use 'file' as x)
+12. Управление ошибками (@error, @warn, @debug)
+13. Карты (map-get, map-merge, map-remove)
+14. Цепочка стилей (&, &:hover)
+15. Работа с функциями цветов (lighten, darken, mix, adjust-hue)
 
-✅ Единицы измерения (px, em, rem, %, vh, vw)
+## Обзор подходов: PostCSS, Tailwind CSS, CSS-in-JS, Vanilla CSS
 
-✅ Цвета (hex, rgb, hsl, opacity, rgba)
-
-✅ Блочная модель (box model: margin, border, padding, content)
-
-✅ Система позиционирования (static, relative, absolute, fixed, sticky)
-
-✅ Отображение (display: block, inline, flex, grid, none)
-
-✅ Работа со шрифтами (font-family, font-size, line-height)
-
-✅ Границы, тени, скругления (border, box-shadow, border-radius)
-
-✅ Фоны и изображения (background, background-image, cover, contain)
-
-✅ Работа с overflow (overflow, scroll, hidden, auto)
-
-✅ Медиазапросы (@media)
-
-✅ Переходы и анимации (transition, animation, keyframes)
-
-### Продвинутые темы в CSS ###
-
-💡 CSS Flexbox (расположение в одну строку/столбец)
-
-💡 CSS Grid (двумерные сетки)
-
-💡 Responsive design и mobile-first
-
-💡 Специфичность и приоритеты (в том числе !important)
-
-💡 Переменные CSS (--main-color)
-
-💡 Калькуляции: calc(), clamp(), min(), max()
-
-💡 Custom properties + JS (getComputedStyle(document.documentElement))
-
-💡 Advanced селекторы: :is(), :has(), :where()
-
-💡 Поддержка тёмной темы (prefers-color-scheme)
-
-💡 Адаптивная типографика (clamp(), fluid typography)
-
-💡 Современные анимации (CSS-only, motion-safe, delay/steps)
-
-💡 Адаптивные изображения (object-fit, aspect-ratio, picture, srcset)
-
-💡 Layered CSS (@layer, @scope — экспериментально)
-
-💡 Контейнерные запросы (@container) — современная альтернатива @media
-
-💡 Поддержка accessibility (фокус, контрастность, :focus-visible)
-
-### Основные темы в SASS/SCSS ###
-
-📦 Переменные ($color: #333)
-
-📦 Вложенность (nav ul li a {})
-
-📦 Импорт файлов (@use, @forward, @import — устаревшее)
-
-📦 Миксины (@mixin, @include)
-
-📦 Условия (@if, @else, @else if)
-
-📦 Циклы (@for, @each, @while)
-
-📦 Функции (@function, @return)
-
-📦 Операции (+, -, *, /, %)
-
-📦 Расширение селекторов (@extend)
-
-📦 Интерполяция (#{$var})
-
-📦 Модули и неймспейсы (@use 'file' as x)
-
-📦 Управление ошибками (@error, @warn, @debug)
-
-📦 Карты (map-get, map-merge, map-remove)
-
-📦 Цепочка стилей (&, &:hover)
-
-📦 Работа с функциями цветов (lighten, darken, mix, adjust-hue)
