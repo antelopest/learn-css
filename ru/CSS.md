@@ -54,5 +54,14 @@
 14. Цепочка стилей (&, &:hover)
 15. Работа с функциями цветов (lighten, darken, mix, adjust-hue)
 
-## Обзор подходов: PostCSS, Tailwind CSS, CSS-in-JS, Vanilla CSS
+## Обзор подходов работы со стилями в 2025:
 
+1. Препроцессоры SASS/SCSS
+2. PostCSS
+3. Tailwind CSS
+4. CSS-in-JS
+5. Vanilla CSS
+
+## Методология БЭМ (BEM)
+
+1. Методология БЭМ
