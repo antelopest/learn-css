@@ -58,9 +58,9 @@
 
 1. [Препроцессоры SASS/SCSS](4.%20Обзор%20подходов/1.%20SASS%20(SCSS).md)
 2. [PostCSS](4.%20Обзор%20подходов/2.%20PostCSS.md)
-3. Tailwind CSS
-4. CSS-in-JS
-5. Vanilla CSS
+3. [Tailwind CSS]
+4. [CSS-in-JS]
+5. [Vanilla CSS]
 
 ## Методология БЭМ (BEM)
 
