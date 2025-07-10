@@ -28,7 +28,7 @@
 6. Калькуляции: calc(), clamp(), min(), max()
 7. Custom properties + JS (getComputedStyle(document.documentElement))
 8. Advanced селекторы: :is(), :has(), :where()
-9. Поддержка тёмной темы (prefers-color-scheme)
+9. [Поддержка тёмной темы](2.%20Продвинутые%20темы%20CSS/9.%20Поддержка%20темной%20темы.md)
 10. [Адаптивная типографика](2.%20Продвинутые%20темы%20CSS/10.%20Адаптивная%20типографика.md)
 11. Современные анимации (CSS-only, motion-safe, delay/steps)
 12. Адаптивные изображения (object-fit, aspect-ratio, picture, srcset)
