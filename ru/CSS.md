@@ -33,7 +33,7 @@
 11. Современные анимации (CSS-only, motion-safe, delay/steps)
 12. Адаптивные изображения (object-fit, aspect-ratio, picture, srcset)
 13. Layered CSS (@layer, @scope — экспериментально)
-14. Контейнерные запросы (@container) — современная альтернатива @media
+14. [Контейнерные запросы](2.%20Продвинутые%20темы%20CSS/14.%20Контейнерные%20запросы.md)
 15. Поддержка accessibility (фокус, контрастность, :focus-visible)
 
 ## Основные темы в SASS/SCSS
