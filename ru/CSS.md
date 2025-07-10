@@ -26,7 +26,7 @@
 4. Специфичность и приоритеты (в том числе !important)
 5. Переменные CSS (--main-color)
 6. Калькуляции: calc(), clamp(), min(), max()
-7. Custom properties + JS (getComputedStyle(document.documentElement))
+7. [Custom properties + JS](2.%20Продвинутые%20темы%20CSS/7.%20Custom%20properties.md)
 8. [Advanced селекторы](2.%20Продвинутые%20темы%20CSS/8.%20Advanced%20селекторы.md)
 9. [Поддержка тёмной темы](2.%20Продвинутые%20темы%20CSS/9.%20Поддержка%20темной%20темы.md)
 10. [Адаптивная типографика](2.%20Продвинутые%20темы%20CSS/10.%20Адаптивная%20типографика.md)
